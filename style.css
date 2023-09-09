@@ -7,4 +7,12 @@
   /* General */
   --dark-base: #222;
   --lighter-dark: #333;
+  --gray: #858585;
+  --light-gray: #d2d2d2;
+  --light-white: #f1f1f1;
+
+  /* Active */
+  --active-almond: #feecd7;
+  --active-light-white: #dedede;
+  --active-crimson: #c51337;
 }
