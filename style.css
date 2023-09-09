@@ -3,4 +3,8 @@
   --light-orange: #f2d0a9ff;
   --almont: #f1e3d3ff;
   --crimson: #dc143cff;
+
+  /* General */
+  --dark-base: #222;
+  --lighter-dark: #333;
 }
