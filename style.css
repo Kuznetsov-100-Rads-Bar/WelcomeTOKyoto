@@ -37,6 +37,11 @@
   --fs-64: 4rem;
   --fs-72: 4.5rem;
 
+  /* Shadows */
+  --light-solid-shadow: 0 2px 0px #111111cc;
+  --solid-shadow: 0 2px 0px #111;
+  --shadow-sm: 0 2px 4px rgba(17, 17, 17, 0.502);
+  --drop-shadow: 1px 1px 0px #1111114d;
 
   /* Gradients */
     --striped-pinky: repeating-linear-gradient(
