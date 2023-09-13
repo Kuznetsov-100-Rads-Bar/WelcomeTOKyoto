@@ -60,4 +60,12 @@
 
   /* Borders */
   --light-dark-border: 1px solid var(--lighter-dark);
+  --dark-thick-border: 2px solid var(--lighter-dark);
+}
+
+/* Global & Utilities */
+/* Des styles qui vont se repeter dans notre page */
+
+body {
+  font-family: var(--base-font);
 }
