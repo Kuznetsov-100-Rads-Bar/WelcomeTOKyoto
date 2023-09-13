@@ -25,6 +25,8 @@
   --fs-12: 0.75rem; /* 12px c'est 0.75rem par rapport à 16px de base ( 1rem c'est 16px de base sur le navigateur ) */
 
   /* Par exemple le titre h1 : Découvrez Kyoto la taille est de 72. Donc on fait 72/16= 4.5 rerm. Ainsi de suite ! */
+  --fs-14: 0.875rem;
+  --fs-16: 1rem;
 
 
   /* Shadows */
