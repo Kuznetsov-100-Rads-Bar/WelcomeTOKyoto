@@ -89,7 +89,9 @@ input {
   font-size: var(--fs-72);
   line-height: 1.1;
   font-family: var(--accent-font);
-  color: var(--light-white);
+  color: var(--dark-base);
   font-weight: 900;
   text-transform: uppercase;
+  margin-bottom: 20px;
+  text-shadow: 0 3px 0px var(--lighter-dark), 0 4px 0px var(--lighter-dark);
 }
