@@ -87,4 +87,5 @@ input {
 
 .main-heading {
   font-size: var(--fs-72);
+  line-height: 1.1;
 }
