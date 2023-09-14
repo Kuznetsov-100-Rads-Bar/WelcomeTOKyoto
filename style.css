@@ -89,4 +89,5 @@ input {
   font-size: var(--fs-72);
   line-height: 1.1;
   font-family: var(--accent-font);
+  color: var(--light-white);
 }
