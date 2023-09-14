@@ -1,3 +1,11 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 :root {
   /* Colors */
   --light-orange: #f2d0a9ff;
@@ -64,8 +72,15 @@
 }
 
 /* Global & Utilities */
-/* Des styles qui vont se repeter dans notre page */
+/* Des styles qui vont se repeter sur notre page */
 
 body {
+  font-family: var(--base-font);
+  color: var(--dark-base);
+  background-color: var(--light-white);
+}
+
+button,
+input {
   font-family: var(--base-font);
 }
