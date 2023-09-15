@@ -85,6 +85,11 @@ input {
   font-family: var(--base-font);
 }
 
+/* .container {
+  max-width: 1100px;
+  margin: 0 auto;
+   */
+
 .main-heading {
   font-size: var(--fs-72);
   line-height: 1.1;
@@ -95,4 +100,10 @@ input {
   margin-bottom: 20px;
   text-shadow:
    0 3px 0px var(--lighter-dark), 0 4px 0px var(--lighter-dark);
+}
+
+@media (max-width: 768px) {
+  .main-heading {
+    font-size: var(--fs-42);
+  }
 }
