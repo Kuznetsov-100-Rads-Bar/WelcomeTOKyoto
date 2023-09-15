@@ -113,6 +113,7 @@ nav {
   position: fixed;
   z-index: 10; /* Pour créer un contexte d'empilement, et pour que le nav soit au dessus de tout les élements */
   width: 100%;
+  background-color: var(--light-orange);
   padding: 12px 6px;
   display: flex;
   justify-content: center;
@@ -137,7 +138,6 @@ nav a:hover {
 .hero-section {
   padding: 145px 10px 10px;/* 145px en haut, 10px à Gauche et à Droite et 10px en bas  */
   min-height: 700px;
-  background-image: url(./ressources/hero-background-semi-dark.jpg);
   background-size: cover;
   background-position: center;
   text-align: center;
