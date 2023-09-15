@@ -80,7 +80,10 @@ body {
   background-color: var(--light-white);
 }
 
-
+button,
+input {
+  font-family: var(--base-font);
+}
 
 /* .container {
   max-width: 1100px;
