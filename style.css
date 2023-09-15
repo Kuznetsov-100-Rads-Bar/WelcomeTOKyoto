@@ -139,5 +139,7 @@ nav a:hover {
   padding: 145px 10px 10px;/* 145px en haut, 10px à Gauche et à Droite et 10px en bas  */
   min-height: 700px;
   background-image: url(./ressources/hero-background-semi-dark.jpg);
-
+  background-size: cover;
+  background-position: center;
+  text-align: center;
 }
