@@ -94,7 +94,6 @@ input {
   font-size: var(--fs-72);
   line-height: 1.1;
   font-family: var(--accent-font);
-  color: var(--light-white);
   font-weight: 900;
   text-transform: uppercase;
   margin-bottom: 20px;
