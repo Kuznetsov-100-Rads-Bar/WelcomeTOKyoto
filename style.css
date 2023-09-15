@@ -80,10 +80,7 @@ body {
   background-color: var(--light-white);
 }
 
-button,
-input {
-  font-family: var(--base-font);
-}
+
 
 /* .container {
   max-width: 1100px;
@@ -140,4 +137,6 @@ nav a:hover {
   min-height: 700px;
   background-image: url(./ressources/hero-background-semi-dark.jpg);
   background-size: cover;
+  background-position: center;
+  text-align: center;
 }
