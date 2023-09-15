@@ -121,5 +121,21 @@ nav {
 }
 
 nav a {
-  
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: var(--dark-base);
+  margin: 0 10px;
+  font-size: var(--fs-14);
+}
+
+nav a:hover {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+/* Hero Section */
+.hero-section {
+  padding: 145px 10px 10px;/* 145px en haut, 10px à Gauche et à Droite et 10px en bas  */
+  min-height: 700px;
 }
