@@ -129,10 +129,6 @@ nav a {
   font-size: var(--fs-14);
 }
 
-nav a:hover {
-  text-decoration: underline;
-  text-underline-offset: 3px;
-}
 
 /* Hero Section */
 .hero-section {
