@@ -107,3 +107,19 @@ input {
     font-size: var(--fs-42);
   }
 }
+
+/* Navigation */
+nav {
+  position: fixed;
+  z-index: 10; /* Pour créer un contexte d'empilement, et pour que le nav soit au dessus de tout les élements */
+  width: 100%;
+  background-color: var(--light-orange);
+  padding: 12px 6px;
+  display: flex;
+  justify-content: center;
+  border-bottom: var(--light-dark-border);
+}
+
+nav a {
+  
+}
