@@ -159,4 +159,5 @@ nav a:hover {
 .hero-btn span {
   text-transform: uppercase;
   font-size: var(--fs-14);
+  font-weight: 600;
 }
