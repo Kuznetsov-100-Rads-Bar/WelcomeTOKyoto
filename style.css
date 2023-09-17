@@ -166,3 +166,7 @@ nav a:hover {
   background-color: var(--light-white);
   color: var(--lighter-dark);
 }
+.hero-btn-2 {
+  background-color: var(--crimson);
+  color: var(--light-white);
+}
