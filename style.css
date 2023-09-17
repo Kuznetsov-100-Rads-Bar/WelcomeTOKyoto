@@ -161,3 +161,8 @@ nav a:hover {
   font-size: var(--fs-14);
   font-weight: 600;
 }
+
+.hero-btn-1 {
+  background-color: var(--light-white);
+  color: var(--lighter-dark);
+}
