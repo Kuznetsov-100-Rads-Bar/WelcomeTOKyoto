@@ -146,4 +146,6 @@ nav a:hover {
 
 .hero-btn {
   min-width: 175px;
+  padding: 10px;
+  border: none;
 }
