@@ -148,4 +148,6 @@ nav a:hover {
   min-width: 175px;
   padding: 10px;
   border: none;
+  box-shadow: var(--solid-shadow);
+  border-radius: 999px;
 }
