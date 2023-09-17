@@ -150,4 +150,5 @@ nav a:hover {
   border: none;
   box-shadow: var(--solid-shadow);
   border-radius: 999px;
+  cursor: pointer;
 }
