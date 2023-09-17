@@ -170,3 +170,11 @@ nav a:hover {
   background-color: var(--crimson);
   color: var(--light-white);
 }
+
+.hero-btn-1:hover {
+  background-color: var(--active-almond);
+}
+
+.hero-btn-2:hover {
+  background-color: var(--active-crimson);
+}
