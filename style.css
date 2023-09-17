@@ -155,3 +155,8 @@ nav a:hover {
   align-items: center;
   justify-content: center;
 }
+
+.hero-btn span {
+  text-transform: uppercase;
+  font-size: var(--fs-14);
+}
