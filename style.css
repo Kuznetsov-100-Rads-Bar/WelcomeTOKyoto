@@ -532,7 +532,16 @@ nav a:hover {
 .contact-list img {
   width: 30px;
 }
-
+.contact-list li {
+  border-radius: 5px;
+  list-style-type: none;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-image: var(--light-orange-pinky);
+  border: var(--dark-thick-border);
+}
 
 .contact-list li:not(:nth-child(3)) {
   margin-bottom: 15px;
