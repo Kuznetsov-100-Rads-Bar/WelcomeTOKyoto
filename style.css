@@ -247,4 +247,16 @@ nav a:hover {
   background-color: var(--almont);
   border-radius: 25px;
   padding: 40px 25px 112px;
+  position: relative;
+  box-shadow: var(--shadow-sm);
+}
+
+.negativ-container .heading-2 {
+  margin-bottom: 60px;
+}
+
+.negativ-container {
+  max-width: 825px;
+  margin: 0 auto;
+  min-height: 300px;
 }
