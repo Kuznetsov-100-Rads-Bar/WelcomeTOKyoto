@@ -178,3 +178,9 @@ nav a:hover {
 .hero-btn-2:hover {
   background-color: var(--active-crimson);
 }
+
+.hero-btn img {
+  width: 20px;
+  margin-left: 10px;
+  filter: --drop-shadow(var(--drop-shadow));
+}
