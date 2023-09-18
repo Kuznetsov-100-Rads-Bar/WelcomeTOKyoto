@@ -98,10 +98,8 @@ input {
   color: var(--light-white);
   font-weight: 900;
   text-transform: uppercase;
+  text-shadow: 0 3px 0px var(--lighter-dark), 0 4px 0px var(--lighter-dark);
   margin-bottom: 20px;
-  text-shadow:
-  0 3px 0px var(--lighter-dark),
-  0 4px 0px var(--lighter-dark);
 }
 
 .heading-2 {
@@ -110,7 +108,7 @@ input {
 }
 
 .surtitle,
-.heading-2  {
+.heading-2 {
   text-align: center;
 }
 
