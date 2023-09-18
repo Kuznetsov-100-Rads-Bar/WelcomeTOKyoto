@@ -553,27 +553,7 @@ nav a:hover {
   font-weight: 700;
 }
 
-@media (max-width: 450px) {
-  .contact {
-    padding: 40px 10px;
-  }
-  .contact .heading-2 {
-    font-size: var(--fs-24);
-  }
-  .rounded-contact {
-    padding: 30px 20px;
-  }
-  .contact-list li {
-    padding: 10px;
-  }
-  .contact-list a, 
-  .contact-list span {
-    font-size:  var(--fs-14);
-  }
-  .contact-list img {
-    width: 20px;
-  }
-}
+
 
 /* footer */
 
