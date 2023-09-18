@@ -255,8 +255,22 @@ nav a:hover {
   margin-bottom: 60px;
 }
 
-.negativ-container {
+.activity-container {
   max-width: 825px;
   margin: 0 auto;
   min-height: 300px;
+  display: flex;
+  border-radius: 3px;
+  box-shadow: var(--shadow-sm);
+  background-image: var(--dark-right);
 }
+
+.activity-2 {
+  background-image: var(--dark-left);
+}
+
+.activity-container img {
+  width: 50%;
+  padding: 25px;
+}
+
