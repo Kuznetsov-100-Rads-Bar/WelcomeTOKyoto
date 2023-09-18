@@ -85,10 +85,11 @@ input {
   font-family: var(--base-font);
 }
 
-/* .container {
+.container {
   max-width: 1100px;
   margin: 0 auto;
-   */
+}
+
 
 .main-heading {
   font-size: var(--fs-72);
@@ -121,9 +122,17 @@ input {
 
 
 
+
+
 @media (max-width: 768px) {
   .main-heading {
     font-size: var(--fs-42);
+  }
+  .heading-2 {
+    font-size: var(--fs-26);
+  }
+  .surtitle {
+    font-size: var(--fs-16);
   }
 }
 
@@ -226,4 +235,10 @@ nav a:hover {
     padding-top: 100px;
     min-height: 450px;
   }
+}
+
+/* Activities section */
+.activities-section {
+  padding: 0 10px 62px;
+  background-image: var(--striped-pinky);
 }
