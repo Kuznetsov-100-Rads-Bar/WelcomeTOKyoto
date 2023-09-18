@@ -184,3 +184,13 @@ nav a:hover {
   margin-left: 10px;
   filter: --drop-shadow(var(--drop-shadow));
 }
+
+@media (max-width: 768px) {
+  .hero-section {
+    min-height: 550px;
+  }
+  .hero-btn {
+    min-width: 135px;
+    padding: 10px 12px;
+  }
+}
