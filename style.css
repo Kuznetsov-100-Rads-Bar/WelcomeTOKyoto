@@ -193,4 +193,18 @@ nav a:hover {
     min-width: 135px;
     padding: 10px 12px;
   }
+  .hero-section span {
+    font-size: var(--fs-12);
+  }
+  .hero-btn img {
+    width: 14px;
+    margin-left: 10px;
+  }
+}
+
+@media (max-width: 600px) {
+  .hero-section {
+    padding-top: 100px;
+    min-height: 450px;
+  }
 }
