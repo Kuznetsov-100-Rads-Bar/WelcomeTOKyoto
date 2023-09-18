@@ -577,3 +577,15 @@ nav a:hover {
 
 /* footer */
 
+footer {
+  background-color: var(--light-orange);
+  padding: 10px 0;
+  text-align: center;
+}
+
+footer a {
+  text-decoration-color: var(--dark-base);
+  color: var(--dark-base);
+  text-underline-offset: 4px;
+  font-weight: 500;
+}
