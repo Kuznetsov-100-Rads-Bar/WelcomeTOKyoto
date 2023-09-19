@@ -95,10 +95,10 @@ input {
   color: var(--light-white);
   font-weight: 900;
   text-transform: uppercase;
-  margin-bottom: 20px;
   text-shadow: 
   0 3px 0px var(--lighter-dark), 
   0 4px 0px var(--lighter-dark);
+  margin-bottom: 20px;
 }
 
 .heading-2 {
@@ -128,9 +128,9 @@ input {
     font-size: var(--fs-16);
   }
 }
+/*******************************************************************/
 
 /* Navigation */
-
 nav {
   position: fixed;
   z-index: 10;
@@ -154,9 +154,9 @@ nav a:hover {
   text-decoration: underline;
   text-underline-offset: 3px;
 }
+/*******************************************************************/
 
 /* Hero Section */
-
 .hero-section {
   padding: 145px 10px 10px;
   min-height: 700px;
