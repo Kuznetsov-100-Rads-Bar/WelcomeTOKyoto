@@ -230,7 +230,6 @@ nav a:hover {
 }
 
 /* Activities section */
-
 .activities-section {
   padding: 0 10px 62px;
   background-image: var(--striped-pinky);
@@ -288,7 +287,11 @@ nav a:hover {
 .activity-description p {
   line-height: 1.5;
   margin-bottom: 20px;
+  font-size: var(--fs-16);
   color: var(--light-gray);
+}
+.activity-description li {
+  list-style-type: none;
 }
 .activity-link {
   margin-top: auto;
