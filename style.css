@@ -7,6 +7,7 @@
 }
 
 /* Designe system */
+
 :root {
   /* Colors */
   --light-orange: #f2d0a9ff;
@@ -131,6 +132,7 @@ input {
 /*******************************************************************/
 
 /* Navigation */
+
 nav {
   position: fixed;
   z-index: 10;
@@ -157,6 +159,7 @@ nav a:hover {
 /*******************************************************************/
 
 /* Hero Section */
+
 .hero-section {
   padding: 145px 10px 10px;
   min-height: 700px;
@@ -231,6 +234,7 @@ nav a:hover {
 }
 /****************************************************************/
 /* Activities section */
+
 .activities-section {
   padding: 0 10px 62px;
   background-image: var(--striped-pinky);
@@ -344,6 +348,7 @@ nav a:hover {
 }
 
 /* Parallax */
+
 .parallax {
   min-height: 275px;
   background-image: url(ressources/parallax-large-flou.jpg);
@@ -376,6 +381,7 @@ nav a:hover {
 }
 
 /* Pricing section */
+
 .pricing {
   padding: 44px 10px 136px;
   background-image: var(--radial-white-beige);
@@ -516,8 +522,9 @@ nav a:hover {
     display: none;
   }
 }
-
+/****************************************************************/
 /* Contact */
+
 .contact {
   padding: 120px 10px;
   background-image: url(ressources/tradition-japan.jpg);
@@ -592,8 +599,9 @@ nav a:hover {
     width: 20px;
   }
 }
-
+/****************************************************************/
 /* footer */
+
 footer {
   background-color: var(--light-orange);
   padding: 10px 0;
