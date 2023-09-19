@@ -6,6 +6,7 @@
   padding: 0;
 }
 
+/* Designe system */
 :root {
   /* Colors */
   --light-orange: #f2d0a9ff;
@@ -68,7 +69,7 @@
   --light-dark-border: 1px solid var(--lighter-dark);
   --dark-thick-border: 2px solid var(--lighter-dark);
 }
-
+/*******************************************************************/
 /* Global & utilities */
 
 body {
@@ -247,7 +248,7 @@ nav a:hover {
 }
 .activity-container {
   max-width: 825px;
-  margin: 0 auto;
+  margin-inline: auto;
   min-height: 300px;
   display: flex;
   border-radius: 3px;
@@ -263,8 +264,16 @@ nav a:hover {
 .activity-container img {
   width: 50%;
   padding: 25px;
+}
+
+.activity-description {
+  width: 50%;
+}
+
+.activity-container img {
   object-fit: cover;
 }
+
 .activity-description {
   display: flex;
   flex-direction: column;
@@ -331,7 +340,6 @@ nav a:hover {
 }
 
 /* Parallax */
-
 .parallax {
   min-height: 275px;
   background-image: url(ressources/parallax-large-flou.jpg);
@@ -345,6 +353,7 @@ nav a:hover {
 }
 .japanese-text {
   font-size: var(--fs-64);
+  /* Pour rapprocher les deux sinon les kanjis prennent beaucoup de place */
   line-height: 1.2;
 }
 .parallax-text {
@@ -363,7 +372,6 @@ nav a:hover {
 }
 
 /* Pricing section */
-
 .pricing {
   padding: 44px 10px 136px;
   background-image: var(--radial-white-beige);
@@ -456,7 +464,7 @@ nav a:hover {
 }
 
 .shadow {
-  display: flex;
+  display: block;
   margin: 20px auto 0;
 }
 
@@ -490,11 +498,15 @@ nav a:hover {
     padding: 8px;
     font-size: var(--fs-14);
   }
-  .c1,.c2,.c3 {
+  .c1 {
     transform: none;
   }
   .c2 {
+    transform: none;
     order: 3;
+  }
+  .c3 {
+    transform: none;
   }
   .shadow {
     display: none;
@@ -502,8 +514,6 @@ nav a:hover {
 }
 
 /* Contact */
-
-
 .contact {
   padding: 120px 10px;
   background-image: url(ressources/tradition-japan.jpg);
@@ -534,11 +544,14 @@ nav a:hover {
 }
 .contact-list li {
   border-radius: 5px;
+  /* background: var(--dark-base); */
   list-style-type: none;
   padding: 30px;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  /* Deux fois pour le span et le lien */
+  /* Dégradé différent du premier au niveau des images/ directions */
   background-image: var(--light-orange-pinky);
   border: var(--dark-thick-border);
 }
@@ -569,6 +582,7 @@ nav a:hover {
   .contact-list a, 
   .contact-list span {
     font-size:  var(--fs-14);
+    color: var(--dark-base);
   }
   .contact-list img {
     width: 20px;
@@ -576,7 +590,6 @@ nav a:hover {
 }
 
 /* footer */
-
 footer {
   background-color: var(--light-orange);
   padding: 10px 0;
