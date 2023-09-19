@@ -181,6 +181,7 @@ nav a:hover {
   text-transform: uppercase;
   font-size: var(--fs-14);
   font-weight: 600;
+  text-decoration-color: #111;
 }
 .hero-btn-1 {
   background-color: var(--light-white);
@@ -228,7 +229,7 @@ nav a:hover {
     min-height: 450px;
   }
 }
-
+/****************************************************************/
 /* Activities section */
 .activities-section {
   padding: 0 10px 62px;
