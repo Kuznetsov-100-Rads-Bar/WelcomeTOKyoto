@@ -573,9 +573,9 @@ nav a:hover {
 }
 
 .contact-list a, .contact-list span {
-  font-size:  var(--fs-20);
-  color: var(--dark-base);
-  font-weight: 700;
+  font-size:  var(--fs-40);
+
+
 }
 
 @media (max-width: 450px) {
