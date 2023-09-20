@@ -31,10 +31,10 @@
   --accent-font: Nunito sans, sans-serif;
 
   /* Font-size */
-
+  /* calcul =>  12px/16px = 0.75rem */
   --fs-12: 0.75rem;
   --fs-14: 0.875rem;
-  --fs-16: 1rem;
+  --fs-16: 1rem; /* 1rem c'est 16px de base sur les navigateurs */
   --fs-18: 1.125rem;
   --fs-20: 1.25rem;
   --fs-22: 1.375rem;
@@ -78,7 +78,7 @@ body {
   color: var(--dark-base);
   background-color: var(--light-white);
 }
-/* Car ne s'hérite pas sur les élements de base */
+/* Pour les boutons et les inputs, on est obligé  de définir une font-family qui est => Raleway, car du style a été donné par le navigateur par défaut à ces élements ! */
 button,
 input {
   font-family: var(--base-font);
@@ -135,7 +135,7 @@ input {
 
 nav {
   position: fixed;
-  z-index: 10;
+  z-index: 10; /* Pour que le nav soit au dessus de tout, un contexte d'emplilement ! */
   width: 100%;
   background-color: var(--light-orange);
   padding: 12px 6px;
@@ -161,14 +161,14 @@ nav a:hover {
 /* Hero Section */
 
 .hero-section {
-  padding: 145px 10px 10px;
+  padding: 145px 10px 10px; /* 145px en Haut, 10px à Gauche et à Droite, 10px en Bas */
   min-height: 700px;
   background-image: url(./ressources/hero-background-semi-dark.jpg);
   background-size: cover;
   background-position: center;
   text-align: center;
 }
-
+/* Styliser les boutons : hero-btn */
 .hero-btn {
   min-width: 175px;
   padding: 10px;
@@ -341,10 +341,7 @@ nav a:hover {
     width: 100%;
     padding: 25px;
   }
-  .activity-description {
-    padding: 0px 25px 25px;
-    width: 100%;
-  }
+
 }
 
 /* Parallax */
