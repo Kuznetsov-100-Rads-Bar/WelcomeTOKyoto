@@ -382,7 +382,10 @@ nav a:hover {
 
 /* Pricing section */
 
-
+.pricing {
+  padding: 44px 10px 136px;
+  background-image: var(--radial-white-beige);
+}
 
 .pricing .heading-2 {
   margin-bottom: 62px;
